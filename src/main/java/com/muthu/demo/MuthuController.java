@@ -9,6 +9,6 @@ public class MuthuController {
 
 	@GetMapping("/getDetails")
 	public ResponseEntity<?> getDetails() {
-		return ResponseEntity.ok("first message");
+		return ResponseEntity.ok("first message!!!");
 	}
 }
